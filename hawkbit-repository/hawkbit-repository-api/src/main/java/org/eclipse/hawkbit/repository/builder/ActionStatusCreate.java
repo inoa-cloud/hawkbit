@@ -28,7 +28,7 @@ public interface ActionStatusCreate {
      *            {@link ActionStatus#getStatus()}
      * @return updated {@link ActionStatusCreate} object
      */
-    ActionStatusCreate status(@NotNull Status status);
+    ActionStatusCreate status(Status status);
 
     /**
      * @param occurredAt
